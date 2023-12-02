@@ -1,12 +1,12 @@
 {
-    "name": "rust-analyzer",
-    "displayName": "rust-analyzer",
-    "description": "Rust language support for Visual Studio Code",
+    "name": "rust-analyzer-dev",
+    "displayName": "Rust Analyzer",
+    "description": "Rust Analyzer for Visual Studio Code",
     "private": true,
     "icon": "icon.png",
-    "version": "0.5.0-dev",
+    "version": "1.0.0",
     "releaseTag": null,
-    "publisher": "rust-lang",
+    "publisher": "spacegray",
     "repository": {
         "url": "https://github.com/rust-lang/rust-analyzer.git",
         "type": "git"
@@ -107,197 +107,197 @@
             {
                 "command": "rust-analyzer.syntaxTree",
                 "title": "Show Syntax Tree",
-                "category": "rust-analyzer (debug command)"
+                "category": "Rust Analyzer (debug command)"
             },
             {
                 "command": "rust-analyzer.viewHir",
                 "title": "View Hir",
-                "category": "rust-analyzer (debug command)"
+                "category": "Rust Analyzer (debug command)"
             },
             {
                 "command": "rust-analyzer.viewMir",
                 "title": "View Mir",
-                "category": "rust-analyzer (debug command)"
+                "category": "Rust Analyzer (debug command)"
             },
             {
                 "command": "rust-analyzer.interpretFunction",
                 "title": "Interpret Function",
-                "category": "rust-analyzer (debug command)"
+                "category": "Rust Analyzer (debug command)"
             },
             {
                 "command": "rust-analyzer.viewFileText",
                 "title": "View File Text (as seen by the server)",
-                "category": "rust-analyzer (debug command)"
+                "category": "Rust Analyzer (debug command)"
             },
             {
                 "command": "rust-analyzer.viewItemTree",
                 "title": "Debug ItemTree",
-                "category": "rust-analyzer (debug command)"
+                "category": "Rust Analyzer (debug command)"
             },
             {
                 "command": "rust-analyzer.shuffleCrateGraph",
                 "title": "Shuffle Crate Graph",
-                "category": "rust-analyzer (debug command)"
+                "category": "Rust Analyzer (debug command)"
             },
             {
                 "command": "rust-analyzer.memoryUsage",
                 "title": "Memory Usage (Clears Database)",
-                "category": "rust-analyzer (debug command)"
+                "category": "Rust Analyzer (debug command)"
             },
             {
                 "command": "rust-analyzer.viewCrateGraph",
                 "title": "View Crate Graph",
-                "category": "rust-analyzer"
+                "category": "Rust Analyzer"
             },
             {
                 "command": "rust-analyzer.viewFullCrateGraph",
                 "title": "View Crate Graph (Full)",
-                "category": "rust-analyzer"
+                "category": "Rust Analyzer"
             },
             {
                 "command": "rust-analyzer.expandMacro",
                 "title": "Expand macro recursively at caret",
-                "category": "rust-analyzer"
+                "category": "Rust Analyzer"
             },
             {
                 "command": "rust-analyzer.matchingBrace",
                 "title": "Find matching brace",
-                "category": "rust-analyzer"
+                "category": "Rust Analyzer"
             },
             {
                 "command": "rust-analyzer.parentModule",
                 "title": "Locate parent module",
-                "category": "rust-analyzer"
+                "category": "Rust Analyzer"
             },
             {
                 "command": "rust-analyzer.joinLines",
                 "title": "Join lines",
-                "category": "rust-analyzer"
+                "category": "Rust Analyzer"
             },
             {
                 "command": "rust-analyzer.run",
                 "title": "Run",
-                "category": "rust-analyzer"
+                "category": "Rust Analyzer"
             },
             {
                 "command": "rust-analyzer.copyRunCommandLine",
                 "title": "Copy Run Command Line",
-                "category": "rust-analyzer"
+                "category": "Rust Analyzer"
             },
             {
                 "command": "rust-analyzer.debug",
                 "title": "Debug",
-                "category": "rust-analyzer"
+                "category": "Rust Analyzer"
             },
             {
                 "command": "rust-analyzer.newDebugConfig",
                 "title": "Generate launch configuration",
-                "category": "rust-analyzer"
+                "category": "Rust Analyzer"
             },
             {
                 "command": "rust-analyzer.analyzerStatus",
                 "title": "Status",
-                "category": "rust-analyzer"
+                "category": "Rust Analyzer"
             },
             {
                 "command": "rust-analyzer.reloadWorkspace",
                 "title": "Reload workspace",
-                "category": "rust-analyzer"
+                "category": "Rust Analyzer"
             },
             {
                 "command": "rust-analyzer.rebuildProcMacros",
                 "title": "Rebuild proc macros and build scripts",
-                "category": "rust-analyzer"
+                "category": "Rust Analyzer"
             },
             {
                 "command": "rust-analyzer.restartServer",
                 "title": "Restart server",
-                "category": "rust-analyzer"
+                "category": "Rust Analyzer"
             },
             {
                 "command": "rust-analyzer.startServer",
                 "title": "Start server",
-                "category": "rust-analyzer"
+                "category": "Rust Analyzer"
             },
             {
                 "command": "rust-analyzer.stopServer",
                 "title": "Stop server",
-                "category": "rust-analyzer"
+                "category": "Rust Analyzer"
             },
             {
                 "command": "rust-analyzer.onEnter",
                 "title": "Enhanced enter key",
-                "category": "rust-analyzer"
+                "category": "Rust Analyzer"
             },
             {
                 "command": "rust-analyzer.ssr",
                 "title": "Structural Search Replace",
-                "category": "rust-analyzer"
+                "category": "Rust Analyzer"
             },
             {
                 "command": "rust-analyzer.serverVersion",
                 "title": "Show RA Version",
-                "category": "rust-analyzer"
+                "category": "Rust Analyzer"
             },
             {
                 "command": "rust-analyzer.openDocs",
                 "title": "Open Docs",
-                "category": "rust-analyzer"
+                "category": "Rust Analyzer"
             },
             {
                 "command": "rust-analyzer.openExternalDocs",
                 "title": "Open External Docs",
-                "category": "rust-analyzer"
+                "category": "Rust Analyzer"
             },
             {
                 "command": "rust-analyzer.openCargoToml",
                 "title": "Open Cargo.toml",
-                "category": "rust-analyzer"
+                "category": "Rust Analyzer"
             },
             {
                 "command": "rust-analyzer.peekTests",
                 "title": "Peek Related Tests",
-                "category": "rust-analyzer"
+                "category": "Rust Analyzer"
             },
             {
                 "command": "rust-analyzer.moveItemUp",
                 "title": "Move Item Up",
-                "category": "rust-analyzer"
+                "category": "Rust Analyzer"
             },
             {
                 "command": "rust-analyzer.moveItemDown",
                 "title": "Move Item Down",
-                "category": "rust-analyzer"
+                "category": "Rust Analyzer"
             },
             {
                 "command": "rust-analyzer.cancelFlycheck",
                 "title": "Cancel running flychecks",
-                "category": "rust-analyzer"
+                "category": "Rust Analyzer"
             },
             {
                 "command": "rust-analyzer.runFlycheck",
                 "title": "Run flycheck",
-                "category": "rust-analyzer"
+                "category": "Rust Analyzer"
             },
             {
                 "command": "rust-analyzer.clearFlycheck",
                 "title": "Clear flycheck diagnostics",
-                "category": "rust-analyzer"
+                "category": "Rust Analyzer"
             },
             {
                 "command": "rust-analyzer.revealDependency",
                 "title": "Reveal File",
-                "category": "rust-analyzer"
+                "category": "Rust Analyzer"
             },
             {
                 "command": "rust-analyzer.viewMemoryLayout",
                 "title": "View Memory Layout",
-                "category": "rust-analyzer"
+                "category": "Rust Analyzer"
             },
             {
                 "command": "rust-analyzer.toggleCheckOnSave",
                 "title": "Toggle Check on Save",
-                "category": "rust-analyzer"
+                "category": "Rust Analyzer"
             }
         ],
         "keybindings": [
