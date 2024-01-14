@@ -4,14 +4,14 @@
     "description": "Rust Analyzer for Visual Studio Code",
     "private": true,
     "icon": "icon.png",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "releaseTag": null,
     "publisher": "spacegray",
     "repository": {
-        "url": "https://github.com/rust-lang/rust-analyzer.git",
+        "url": "https://github.com/aaronjheng/rust-analyzer.git",
         "type": "git"
     },
-    "homepage": "https://rust-analyzer.github.io/",
+    "homepage": "https://github.com/aaronjheng/rust-analyzer",
     "license": "MIT OR Apache-2.0",
     "keywords": [
         "rust"
@@ -29,7 +29,6 @@
     "engines": {
         "vscode": "^1.78.0"
     },
-    "enabledApiProposals": [],
     "scripts": {
         "vscode:prepublish": "npm run build-base -- --minify",
         "package": "vsce package -o rust-analyzer.vsix",
